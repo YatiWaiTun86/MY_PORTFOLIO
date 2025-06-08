@@ -1,12 +1,15 @@
 export default function AboutMe() {
   return (
-    <section className="flex flex-col items-center justify-center overflow-hidden p-4">
-      <h1
+    <section
+      id="aboutMe"
+      className="flex flex-col items-center justify-center overflow-hidden p-4"
+    >
+      {/* <h1
         className="mt-7 animate-bounce glitch text-red-300 text-3xl font-bold uppercase tracking-widest mb-6 relative"
         data-text="About Me"
       >
         About Me
-      </h1>
+      </h1> */}
       <div className="cyberpunk-card card-text p-6 rounded border border-pink-500 relative overflow-hidden max-w-4xl w-full">
         <p className="text-sm text-white/80 mb-6 leading-relaxed">
           I am deeply passionate about web development not just as a career, but
@@ -23,12 +26,11 @@ export default function AboutMe() {
           always seeking better ways to build and more meaningful problems to
           solve.
         </p>
-
         <a
           href="#"
           className="read-more text-neon-blue underline hover:text-neon-pink transition-colors duration-300"
         >
-          More..
+          Download Resume
         </a>
       </div>
     </section>

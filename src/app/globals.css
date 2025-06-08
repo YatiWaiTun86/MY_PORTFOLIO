@@ -309,3 +309,10 @@ body {
   box-shadow: var(--border-glow);
   border-image: linear-gradient(45deg, var(--neon-pink), var(--neon-blue)) 1;
 }
+
+.cyberpunk-glow {
+  text-shadow: 0 0 5px #f0f, 0 0 10px rgb(255, 30, 0);
+  box-shadow: 0 0 5px rgb(98, 0, 255), 0 0 10px #f0f inset;
+}
+
+
